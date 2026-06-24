@@ -4,6 +4,9 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowUpRight, Code, Cpu, Layers } from "lucide-react";
 import profile2 from "./assets/profile2.png";
 
+export const resumeLink =
+  "https://drive.google.com/file/d/1uuqIMmGbqO0aDKOnKrIm7gsRC4oyYjD_/view";
+
 const AboutSection = () => {
   const containerRef = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -227,24 +230,26 @@ const AboutSection = () => {
               variants={itemVariants as unknown as any}
               className="pt-6"
             >
-              <motion.button
-                whileHover={{
-                  scale: 1.05,
-                  x: -4,
-                  y: -4,
-                  boxShadow: "12px 12px 0px 0px #000000",
-                }}
-                whileTap={{
-                  scale: 0.95,
-                  x: 0,
-                  y: 0,
-                  boxShadow: "4px 4px 0px 0px #000000",
-                }}
-                className="group relative px-8 py-4 bg-neo-teal text-neo-black font-display font-bold text-lg uppercase tracking-wider border-2 border-neo-black shadow-neo transition-colors duration-200"
-              >
-                Download Resume
-                <span className="absolute bottom-1 right-1 w-2 h-2 bg-neo-black group-hover:bg-white transition-colors"></span>
-              </motion.button>
+              <a href={resumeLink}>
+                <motion.button
+                  whileHover={{
+                    scale: 1.05,
+                    x: -4,
+                    y: -4,
+                    boxShadow: "12px 12px 0px 0px #000000",
+                  }}
+                  whileTap={{
+                    scale: 0.95,
+                    x: 0,
+                    y: 0,
+                    boxShadow: "4px 4px 0px 0px #000000",
+                  }}
+                  className="group relative px-8 py-4 bg-neo-teal text-neo-black font-display font-bold text-lg uppercase tracking-wider border-2 border-neo-black shadow-neo transition-colors duration-200"
+                >
+                  Download Resume
+                  <span className="absolute bottom-1 right-1 w-2 h-2 bg-neo-black group-hover:bg-white transition-colors"></span>
+                </motion.button>
+              </a>
             </motion.div>
           </motion.div>
         </div>

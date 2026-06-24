@@ -8,6 +8,7 @@ import {
   Copy,
   Check,
 } from "lucide-react";
+import { resumeLink } from "./About";
 
 const ContactSection = () => {
   const [copied, setCopied] = useState(false);
@@ -98,7 +99,7 @@ const ContactSection = () => {
               label="Download Resume"
               sub="PDF"
               icon={<FileText className="w-6 h-6" />}
-              href="https://drive.google.com/file/d/1AvPmJ25NgnAH9qlsVrll2TiTbbi-R0NC/view"
+              href={resumeLink}
               color="hover:bg-neo-yellow hover:text-neo-black"
               isPrimary
             />
