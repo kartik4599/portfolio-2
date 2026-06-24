@@ -1,11 +1,37 @@
 import { useRef } from "react";
 import { motion } from "framer-motion";
-import { Terminal, Cuboid, Cpu, Network } from "lucide-react";
+import { Terminal, Cuboid, Cpu, Network, Layers } from "lucide-react";
 
 // --- DATA: Structured from your resume ---
 const experienceData = [
   {
     id: "01",
+    role: "Sr. Full Stack Developer",
+    company: "Programming.com",
+    location: "Pune, IN", // Typically their HQ, adjust if you are remote/Ahmedabad
+    period: "2026.02 — Present",
+    duration: "5 Months",
+    type: "full-time",
+    highlight: "FinTech & Omni-Channel Systems",
+    description: [
+      "Engineered a centralized Communication Hub orchestrating automated emails, WhatsApp messages, and SMS notifications organization-wide.",
+      "Developed a high-conversion loan lead generation portal, optimizing user journeys to scale application intake.",
+      "Architected core loan calculation engines and portals to ensure precision financial computations and real-time processing.",
+    ],
+    tech: [
+      "Next.Js",
+      "Nest JS",
+      "TypeScript",
+      "REST APIs",
+      "Microservices",
+      "MongoDB",
+      "Redis",
+    ],
+    color: "bg-neo-emerald",
+    icon: <Layers className="w-6 h-6" />,
+  },
+  {
+    id: "02",
     role: "Full Stack Web Developer",
     company: "Mindinventory",
     location: "Ahmedabad, IN",
@@ -23,7 +49,7 @@ const experienceData = [
     icon: <Cpu className="w-6 h-6" />,
   },
   {
-    id: "02",
+    id: "03",
     role: "Full Stack Developer",
     company: "BrainerHub Solutions",
     location: "Ahmedabad, IN",
@@ -41,7 +67,7 @@ const experienceData = [
     icon: <Cuboid className="w-6 h-6" />,
   },
   {
-    id: "03",
+    id: "04",
     role: "Junior Full Stack Dev",
     company: "Soulful Mind",
     location: "Bangalore (Remote)",

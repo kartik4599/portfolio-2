@@ -107,7 +107,7 @@ const AboutSection = () => {
             <p className="font-mono text-xs text-neo-grey">
               LOC: INDIA
               <br />
-              EXP: 4+ YEARS
+              EXP: Almost 5 YEARS
               <br />
               STATUS: ONLINE
             </p>
@@ -177,7 +177,7 @@ const AboutSection = () => {
             >
               I’m a Full Stack Developer with over{" "}
               <span className="font-bold text-neo-black">
-                4 years of experience
+                Almost 5 years of experience
               </span>{" "}
               turning complex problems into elegant, brutalist code. From
               mentoring juniors to architecting high-performance SaaS platforms,

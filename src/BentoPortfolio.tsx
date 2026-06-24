@@ -182,7 +182,7 @@ const BentoPortfolio = () => {
                   </div>
                   <div className="border-l-2 border-black/20 pl-3 md:pl-6">
                     <div className="font-['Space_Mono'] text-xs text-black/60">
-                      4+ years of experience
+                      Almost 5 years of experience
                     </div>
                   </div>
                 </div>

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Folder, Github, Cpu, Navigation } from "lucide-react";
+import project0 from "./assets/project0.png";
 import project1 from "./assets/project1.png";
 import project2 from "./assets/project2.png";
 import project3 from "./assets/project3.png";
@@ -8,6 +9,18 @@ import project3 from "./assets/project3.png";
 const notableProjects = [
   {
     id: "01",
+    title: "Omni-Channel FinTech Ecosystem",
+    company: "Programming.com",
+    role: "Sr. Full Stack Developer",
+    year: "2026",
+    desc: "Architected an enterprise communication hub for automated SMS/WhatsApp/email alerts alongside high-conversion loan lead generation and precision calculation portals.",
+    tech: ["Node.js", "TypeScript", "Next.js", "REST APIs", "Microservices"],
+    color: "bg-neo-emerald",
+    image: project0, // Replace with your new asset variable
+    link: "#",
+  },
+  {
+    id: "02",
     title: "AI Website Builder",
     company: "Mindinventory",
     role: "Full Stack Developer",
@@ -19,7 +32,7 @@ const notableProjects = [
     link: "#",
   },
   {
-    id: "02",
+    id: "03",
     title: "Hospital SaaS Platform",
     company: "BrainerHub Solutions",
     role: "Full Stack Architect",
@@ -31,7 +44,7 @@ const notableProjects = [
     link: "#",
   },
   {
-    id: "03",
+    id: "04",
     title: "3D Furniture Showcase",
     company: "BrainerHub Solutions",
     role: "Frontend Lead",
